@@ -1,0 +1,117 @@
+.commands-display {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.commands-display h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.commands-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.command-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.command-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.command-icon {
+  font-size: 2rem;
+  min-width: 40px;
+  text-align: center;
+}
+
+.command-details {
+  flex: 1;
+}
+
+.command-type {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+.command-distance {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.command-angle {
+  font-size: 0.8rem;
+  color: #999;
+  font-style: italic;
+}
+
+.no-commands {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+}
+
+.commands-array {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #f0f0f0;
+}
+
+.commands-array h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.commands-array pre {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  border: 1px solid #e0e0e0;
+  color: #333;
+}
+
+.btn-copy {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-copy:hover {
+  background: #5568d3;
+  transform: translateY(-2px);
+}
+
+.btn-copy:active {
+  transform: translateY(0);
+}
+
